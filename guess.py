@@ -1,11 +1,14 @@
 # Author:ways
 import os
+#我是五道口代码
 def print_name(name):
 	print(name)
 	print(1)
 	print(1)
+	#我是五道口代码
 	print(1)
 import time
+#我是五道口代码
 def print_sum(n,m):
 	print(n+m)
 print_sum(2,3)
