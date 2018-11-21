@@ -1,6 +1,13 @@
 # Author:ways
+import os
+def print_name(name):
+	print(name)
+	print(1)
+	print(1)
+	print(1)
 age_of_oldboy=56
 count=0
+print_name("ways")
 while count<3:
     guess_age=int(input("guess age:"))
     if guess_age==age_of_oldboy:
@@ -13,3 +20,13 @@ while count<3:
     count += 1
 else:
     print("you have tried too many times .... fuck off")
+def warpper(func):
+	def inner(*args,**kwargs):
+		if (1=1):
+			func()
+	return warpper
+
+@warpper
+def login():
+	print("登陆成功")
+login()
