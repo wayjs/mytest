@@ -1,5 +1,6 @@
 # Author:ways
 import os
+#我是公司代码修改2
 def print_name(name):
 	print(name)
 	print(1)
