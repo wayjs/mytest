@@ -5,6 +5,10 @@ def print_name(name):
 	print(1)
 	print(1)
 	print(1)
+import time
+def print_sum(n,m):
+	print(n+m)
+print_sum(2,3)
 age_of_oldboy=56
 count=0
 print_name("ways")
