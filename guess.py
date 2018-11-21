@@ -1,4 +1,8 @@
 # Author:ways
+import time
+def print_sum(n,m):
+	print(n+m)
+print_sum(2,3)
 age_of_oldboy=56
 count=0
 while count<3:
